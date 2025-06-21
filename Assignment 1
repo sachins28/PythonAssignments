@@ -1,0 +1,98 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "9ad89850-a655-4fc9-8b28-835e4f8f1bea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the first number:  5\n",
+      "Enter the Second number:  10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Addition:  15\n",
+      "Subtraction:  -5\n",
+      "Multiplication:  50\n",
+      "Division:  0.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=input('Enter the first number: ')\n",
+    "a=int(a)\n",
+    "b=input('Enter the Second number: ')\n",
+    "b=int(b)\n",
+    "print ('Addition: ',a+b)\n",
+    "print ('Subtraction: ',a-b)\n",
+    "print ('Multiplication: ',a*b)\n",
+    "print ('Division: ',a/b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "0f7761f6-cf6f-4ae8-9522-1e850f7f1bfa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your first name:  John\n",
+      "Enter your last name:   Doe\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, John Doe! Welcome to the Python program.\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=input('Enter your first name: ')\n",
+    "c= a + \" \"\n",
+    "b=input('Enter your last name:  ')\n",
+    "print (\"Hello, \" + c + \"\" + b +\"!\" + \" Welcome to the Python program.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0a1d03c2-f309-4770-ac28-d7abd8195ed5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
